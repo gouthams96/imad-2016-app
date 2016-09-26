@@ -18,8 +18,8 @@ app.get('/ui/madi.png', function (req, res) {
 });
 
 app.get('/artical-one', function(req,res){
-    res.send('Artical one is served here');
-    
+   
+     res.sendFile(path.join(__dirname, 'ui', 'artical-one.html  '));
 });
 app.get('/artical-two', function(req,res){
     res.send('Artical two is served here');
