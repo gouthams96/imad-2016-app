@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/artical-one',function(req,res){
-  res.send("artical-one working perfect");  
+  res.send('artical-one working perfect');  
 });
 
 
